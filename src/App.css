@@ -1,11 +1,28 @@
 .app {
-  width: min(900px, 100%);
+  width: min(980px, 100%);
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 h1 {
-  margin: 0;
-  font-size: 1.25rem;
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
   font-weight: 500;
+  color: #cbd5e1;
+}
+
+.globe {
+  width: 100%;
+  height: min(78vh, 760px);
+  min-height: 420px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #334155;
+  box-shadow: 0 12px 40px rgba(2, 6, 23, 0.35);
+}
+
+@media (max-width: 768px) {
+  .globe {
+    min-height: 340px;
+  }
 }
